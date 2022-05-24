@@ -1,7 +1,7 @@
-let stage = [
+let stages = [
   {
-    title: "VEREADOR",
-    number: 5,
+    role: "VEREADOR",
+    numbers: 5,
     candidates: [
       {
         number: "12111",
@@ -18,6 +18,8 @@ let stage = [
     ],
   },
   {
+    role: "PREFEITO",
+    numbers: 2,
     candidatos: [
       {
         number: "12",
