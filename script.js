@@ -61,7 +61,7 @@ function updateInterface() {
     }
   });
 
-  if (candidate.lenght > 0) {
+  if (candidate.length > 0) {
     candidate = candidate[0];
     yourVoteFor.style.display = "block";
     footer.style.display = "block";
@@ -70,9 +70,9 @@ function updateInterface() {
     let htmlImages = "";
     for (let i in candidate.images) {
       if (candidate.images[i].small) {
-        htmlImages += `<div class="image small"><img src"images/${candidate.images[i].url}" alt="" />${candidate.images[i].legend}</div>`;
+        htmlImages += `<div class="image small"><img src="images/${candidate.images[i].url}" alt="" />${candidate.images[i].legend}</div>`;
       } else {
-        htmlImages += `<div class="image"><img src="images/${candidate.image[i].url}" alt="" />${candidate.images[i].legend}</div>`;
+        htmlImages += `<div class="image"><img src="images/${candidate.images[i].url}" alt="" />${candidate.images[i].legend}</div>`;
       }
     }
 

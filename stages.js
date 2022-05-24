@@ -20,7 +20,7 @@ let stages = [
   {
     role: "PREFEITO",
     numbers: 2,
-    candidatos: [
+    candidates: [
       {
         number: "12",
         name: "Cercílio Renô",
@@ -28,7 +28,7 @@ let stages = [
         vice: "Abigílio",
         images: [
           { url: "3.jpg", legend: "Prefeito" },
-          { url: "4jpg", legend: "Vice-Prefeito", small: true },
+          { url: "4.jpg", legend: "Vice-Prefeito", small: true },
         ],
       },
       {
